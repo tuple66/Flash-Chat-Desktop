@@ -4,6 +4,2515 @@
    <FileRef
       location = "group:Flash Chat.xcodeproj">
    </FileRef>
+   <Group
+      location = "group:Pods"
+      name = "Pods">
+      <FileRef
+         location = "group:Pods.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:FirebaseCore"
+         name = "FirebaseCore">
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <Group
+            location = "group:Firebase"
+            name = "Firebase">
+            <Group
+               location = "group:Core"
+               name = "Core">
+               <FileRef
+                  location = "group:FIRNetworkConstants.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FIRErrors.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FIRConfiguration.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FIRApp.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FIRMutableDictionary.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FIROptions.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FIRAppAssociationRegistration.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FIRNetworkURLSession.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FIRAnalyticsConfiguration.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FIRVersion.m">
+               </FileRef>
+               <Group
+                  location = "group:third_party"
+                  name = "third_party">
+                  <FileRef
+                     location = "group:FIRAppEnvironmentUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAppEnvironmentUtil.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Public"
+                  name = "Public">
+                  <FileRef
+                     location = "group:FIRConfiguration.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIROptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRApp.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRLoggerLevel.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAnalyticsConfiguration.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FirebaseCore.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Private"
+                  name = "Private">
+                  <FileRef
+                     location = "group:FIROptionsInternal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRLogger.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAppInternal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRReachabilityChecker+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRReachabilityChecker.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRNetwork.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRBundleUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRNetworkLoggerProtocol.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRErrorCode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRNetworkMessageCode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRErrors.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAnalyticsConfiguration+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRNetworkConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAppAssociationRegistration.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRMutableDictionary.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRNetworkURLSession.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRVersion.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:FIRLogger.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FIRBundleUtil.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FIRNetwork.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FIRReachabilityChecker.m">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Target Support Files"
+         name = "Target Support Files">
+         <Group
+            location = "group:FirebaseCore"
+            name = "FirebaseCore">
+            <FileRef
+               location = "group:FirebaseCore-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:FirebaseCore.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:FirebaseCore.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:FirebaseCore-umbrella.h">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:FirebaseAuth"
+            name = "FirebaseAuth">
+            <FileRef
+               location = "group:FirebaseAuth.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:FirebaseAuth.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:FirebaseAuth-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:FirebaseAuth-umbrella.h">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Pods-Flash Chat"
+            name = "Pods-Flash Chat">
+            <FileRef
+               location = "group:Pods-Flash Chat-umbrella.h">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Flash Chat-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Flash Chat.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Flash Chat-acknowledgements.markdown">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Flash Chat-resources.sh">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Flash Chat-acknowledgements.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Flash Chat.release.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Flash Chat.debug.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:Pods-Flash Chat-frameworks.sh">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:FirebaseDatabase"
+            name = "FirebaseDatabase">
+            <FileRef
+               location = "group:FirebaseDatabase-umbrella.h">
+            </FileRef>
+            <FileRef
+               location = "group:FirebaseDatabase.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:FirebaseDatabase-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:FirebaseDatabase.xcconfig">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:GTMSessionFetcher"
+            name = "GTMSessionFetcher">
+            <FileRef
+               location = "group:GTMSessionFetcher-prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:GTMSessionFetcher.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:GTMSessionFetcher-umbrella.h">
+            </FileRef>
+            <FileRef
+               location = "group:GTMSessionFetcher-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:GTMSessionFetcher.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SVProgressHUD"
+            name = "SVProgressHUD">
+            <FileRef
+               location = "group:SVProgressHUD-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:SVProgressHUD-umbrella.h">
+            </FileRef>
+            <FileRef
+               location = "group:SVProgressHUD.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:SVProgressHUD.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:SVProgressHUD-prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:ChameleonFramework"
+            name = "ChameleonFramework">
+            <FileRef
+               location = "group:ChameleonFramework-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:ChameleonFramework.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:ChameleonFramework-prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:ChameleonFramework.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:ChameleonFramework-umbrella.h">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:GoogleToolboxForMac"
+            name = "GoogleToolboxForMac">
+            <FileRef
+               location = "group:GoogleToolboxForMac-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:GoogleToolboxForMac.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:GoogleToolboxForMac-umbrella.h">
+            </FileRef>
+            <FileRef
+               location = "group:GoogleToolboxForMac-prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:GoogleToolboxForMac.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:leveldb-library"
+            name = "leveldb-library">
+            <FileRef
+               location = "group:leveldb-library.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:leveldb-library-umbrella.h">
+            </FileRef>
+            <FileRef
+               location = "group:leveldb-library.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:leveldb-library-prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:leveldb-library-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:nanopb"
+            name = "nanopb">
+            <FileRef
+               location = "group:nanopb-dummy.m">
+            </FileRef>
+            <FileRef
+               location = "group:nanopb.modulemap">
+            </FileRef>
+            <FileRef
+               location = "group:nanopb.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:nanopb-prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:nanopb-umbrella.h">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:FirebaseAuth"
+         name = "FirebaseAuth">
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <Group
+            location = "group:Firebase"
+            name = "Firebase">
+            <Group
+               location = "group:Auth"
+               name = "Auth">
+               <FileRef
+                  location = "group:CHANGELOG.md">
+               </FileRef>
+               <Group
+                  location = "group:Source"
+                  name = "Source">
+                  <FileRef
+                     location = "group:FIRAuthUserDefaultsStorage.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthCredential_Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthKeychain.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthWebView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthDefaultUIDelegate.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRSecureTokenService.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthWebUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthExceptionUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthAppCredential.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthErrorUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthDispatcher.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthURLPresenter.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthSerialTaskQueue.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthDataResult_Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthNotificationManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRUserInfoImpl.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthAPNSTokenManager.h">
+                  </FileRef>
+                  <Group
+                     location = "group:RPCs"
+                     name = "RPCs">
+                     <FileRef
+                        location = "group:FIRSecureTokenRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRGetAccountInfoRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRGetOOBConfirmationCodeResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRGetOOBConfirmationCodeRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyCustomTokenResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRCreateAuthURIResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIREmailLinkSignInResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSendVerificationCodeRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAuthRPCRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyPhoneNumberResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAuthRPCResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyPasswordResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIREmailLinkSignInRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRCreateAuthURIRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRDeleteAccountResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyAssertionResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRGetProjectConfigResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRResetPasswordResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRGetAccountInfoResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRResetPasswordRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAuthBackend.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRDeleteAccountRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyClientResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyCustomTokenRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSetAccountInfoRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSignUpNewUserRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSetAccountInfoResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyAssertionRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAuthRequestConfiguration.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyClientRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRGetProjectConfigRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyPhoneNumberRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSignUpNewUserResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyPasswordRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRIdentityToolkitRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSecureTokenResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSendVerificationCodeResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIREmailLinkSignInResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSendVerificationCodeRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRCreateAuthURIResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyCustomTokenResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRGetOOBConfirmationCodeResponse.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRGetOOBConfirmationCodeRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRGetAccountInfoRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSecureTokenRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRResetPasswordResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRGetProjectConfigResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyAssertionResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRDeleteAccountResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIREmailLinkSignInRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRCreateAuthURIRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyPasswordResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyPhoneNumberResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSignUpNewUserRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSetAccountInfoRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyCustomTokenRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyClientResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRDeleteAccountRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAuthBackend.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRResetPasswordRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRGetAccountInfoResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSendVerificationCodeResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRIdentityToolkitRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyPasswordRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSecureTokenResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyPhoneNumberRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSignUpNewUserResponse.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRGetProjectConfigRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyClientRequest.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAuthRequestConfiguration.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRVerifyAssertionRequest.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRSetAccountInfoResponse.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:FIRUserMetadata.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthGlobalWorkQueue.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRUser_Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRUserMetadata_Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthAppCredentialManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthWebViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthAPNSToken.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthAppDelegateProxy.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthProvider.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthOperationType.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRSecureTokenService.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuth.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthWebView.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthDefaultUIDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthKeychain.m">
+                  </FileRef>
+                  <Group
+                     location = "group:Public"
+                     name = "Public">
+                     <FileRef
+                        location = "group:FIRUser.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRGitHubAuthProvider.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAuth.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRPhoneAuthCredential.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIREmailAuthProvider.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRFacebookAuthProvider.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAuthDataResult.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FirebaseAuth.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAdditionalUserInfo.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAuthSettings.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FirebaseAuthVersion.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAuthCredential.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAuthTokenResult.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRActionCodeSettings.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRTwitterAuthProvider.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAuthAPNSTokenType.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAuthUIDelegate.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRAuthErrors.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRUserMetadata.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRPhoneAuthProvider.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIROAuthProvider.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRGoogleAuthProvider.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRUserInfo.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:FIRAuthUserDefaultsStorage.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRUser.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthDataResult.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthDispatcher.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthErrorUtils.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthAppCredential.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthWebUtils.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthExceptionUtils.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthGlobalWorkQueue.m">
+                  </FileRef>
+                  <Group
+                     location = "group:AuthProviders"
+                     name = "AuthProviders">
+                     <Group
+                        location = "group:Twitter"
+                        name = "Twitter">
+                        <FileRef
+                           location = "group:FIRTwitterAuthProvider.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIRTwitterAuthCredential.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIRTwitterAuthCredential.m">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:OAuth"
+                        name = "OAuth">
+                        <FileRef
+                           location = "group:FIROAuthCredential.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIROAuthProvider.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIROAuthCredential.m">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:Google"
+                        name = "Google">
+                        <FileRef
+                           location = "group:FIRGoogleAuthCredential.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIRGoogleAuthProvider.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIRGoogleAuthCredential.h">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:GitHub"
+                        name = "GitHub">
+                        <FileRef
+                           location = "group:FIRGitHubAuthCredential.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIRGitHubAuthProvider.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIRGitHubAuthCredential.m">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:Facebook"
+                        name = "Facebook">
+                        <FileRef
+                           location = "group:FIRFacebookAuthCredential.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIRFacebookAuthCredential.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIRFacebookAuthProvider.m">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:Phone"
+                        name = "Phone">
+                        <FileRef
+                           location = "group:FIRPhoneAuthProvider.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIRPhoneAuthCredential.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIRPhoneAuthCredential_Internal.h">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:EmailPassword"
+                        name = "EmailPassword">
+                        <FileRef
+                           location = "group:FIREmailPasswordAuthCredential.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIREmailAuthProvider.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIREmailPasswordAuthCredential.h">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <FileRef
+                     location = "group:FIRAuthAPNSTokenManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FirebaseAuthVersion.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthNotificationManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRUserInfoImpl.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthSettings.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthSerialTaskQueue.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAdditionalUserInfo.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthURLPresenter.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthTokenResult_Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthAppDelegateProxy.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRActionCodeSettings.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthTokenResult.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthAPNSToken.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuth_Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthCredential.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAdditionalUserInfo_Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthInternalErrors.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthWebViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAuthAppCredentialManager.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:Manifest.lock">
+      </FileRef>
+      <Group
+         location = "group:FirebaseInstanceID"
+         name = "FirebaseInstanceID">
+         <FileRef
+            location = "group:CHANGELOG.md">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <Group
+            location = "group:Frameworks"
+            name = "Frameworks">
+            <Group
+               location = "group:FirebaseInstanceID.framework"
+               name = "FirebaseInstanceID.framework">
+               <FileRef
+                  location = "group:FirebaseInstanceID">
+               </FileRef>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:FirebaseInstanceID.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRInstanceID.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:FirebaseDatabase"
+         name = "FirebaseDatabase">
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <Group
+            location = "group:Firebase"
+            name = "Firebase">
+            <Group
+               location = "group:Database"
+               name = "Database">
+               <FileRef
+                  location = "group:FIRDatabaseConfig_Private.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FIndex.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FViewProcessor.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FIRDatabaseReference.m">
+               </FileRef>
+               <Group
+                  location = "group:Snapshot"
+                  name = "Snapshot">
+                  <FileRef
+                     location = "group:FLeafNode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FCompoundWrite.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FSnapshotUtilities.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FEmptyNode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FChildrenNode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIndexedNode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FNode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FLeafNode.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FEmptyNode.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FSnapshotUtilities.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FCompoundWrite.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIndexedNode.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FChildrenNode.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:FPriorityIndex.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FPathIndex.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FTransformedEnumerator.m">
+               </FileRef>
+               <Group
+                  location = "group:Core"
+                  name = "Core">
+                  <Group
+                     location = "group:Operation"
+                     name = "Operation">
+                     <FileRef
+                        location = "group:FAckUserWrite.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FOperationSource.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FMerge.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FOverwrite.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FAckUserWrite.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FOperationSource.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FOperation.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FOverwrite.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FMerge.m">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:FWriteTree.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FServerValues.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FWriteRecord.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FCompoundHash.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FRepoManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FListenProvider.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FRepo.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FSyncTree.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FSyncPoint.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FRepoInfo.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FWriteTreeRef.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FSnapshotHolder.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FRangeMerge.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FQueryParams.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FQuerySpec.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FPersistentConnection.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FSparseSnapshotTree.m">
+                  </FileRef>
+                  <Group
+                     location = "group:Utilities"
+                     name = "Utilities">
+                     <FileRef
+                        location = "group:FImmutableTree.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRRetryHelper.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTreeNode.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTree.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FPath.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRRetryHelper.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FImmutableTree.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTree.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTreeNode.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FPath.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:FServerValues.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FWriteRecord.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FWriteTree.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FRepo_Private.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FRepoManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FCompoundHash.h">
+                  </FileRef>
+                  <Group
+                     location = "group:View"
+                     name = "View">
+                     <FileRef
+                        location = "group:FCancelEvent.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FDataEvent.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FKeepSyncedEventRegistration.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FChildEventRegistration.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FEventRaiser.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FView.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FCacheNode.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FEvent.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FChange.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FViewCache.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FValueEventRegistration.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FEventRaiser.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FChildEventRegistration.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FEventRegistration.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FDataEvent.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FKeepSyncedEventRegistration.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FCancelEvent.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FCacheNode.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FView.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FViewCache.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FChange.h">
+                     </FileRef>
+                     <Group
+                        location = "group:Filter"
+                        name = "Filter">
+                        <FileRef
+                           location = "group:FChildChangeAccumulator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FNodeFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FLimitedFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIndexedFilter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FChildChangeAccumulator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FCompleteChildSource.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FIndexedFilter.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FLimitedFilter.m">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:FValueEventRegistration.m">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:FSnapshotHolder.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FWriteTreeRef.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FSyncPoint.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FRepoInfo.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FSyncTree.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FRepo.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FListenProvider.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FSparseSnapshotTree.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FPersistentConnection.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FQuerySpec.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FQueryParams.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FRangeMerge.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:FValueIndex.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FEventGenerator.m">
+               </FileRef>
+               <Group
+                  location = "group:Constants"
+                  name = "Constants">
+                  <FileRef
+                     location = "group:FConstants.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FConstants.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:FListenComplete.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FViewProcessorResult.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FKeyIndex.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FNamedNode.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FMaxNode.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FClock.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FRangedFilter.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FPathIndex.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FPriorityIndex.m">
+               </FileRef>
+               <Group
+                  location = "group:Realtime"
+                  name = "Realtime">
+                  <FileRef
+                     location = "group:FConnection.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FWebSocketConnection.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FConnection.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FWebSocketConnection.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Utilities"
+                  name = "Utilities">
+                  <FileRef
+                     location = "group:FEventEmitter.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FValidation.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FAtomicNumber.m">
+                  </FileRef>
+                  <Group
+                     location = "group:Tuples"
+                     name = "Tuples">
+                     <FileRef
+                        location = "group:FTupleNodePath.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTuplePathValue.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleTSN.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleSetIdPath.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleBoolBlock.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleCallbackStatus.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleObjectNode.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleObjects.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleTransaction.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleRemovedQueriesEvents.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleUserCallback.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleStringNode.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleOnDisconnect.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleFirebase.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleCallbackStatus.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleBoolBlock.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleSetIdPath.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleTSN.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTuplePathValue.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleNodePath.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleTransaction.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleObjects.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleObjectNode.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleStringNode.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleUserCallback.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleRemovedQueriesEvents.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleFirebase.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTupleOnDisconnect.m">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:FUtilities.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FParsedUrl.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FNextPushId.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FStringUtilities.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FValidation.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FEventEmitter.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FTypedefs.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FParsedUrl.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FUtilities.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FAtomicNumber.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FStringUtilities.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FNextPushId.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:third_party"
+                  name = "third_party">
+                  <Group
+                     location = "group:SocketRocket"
+                     name = "SocketRocket">
+                     <FileRef
+                        location = "group:fbase64.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FSRWebSocket.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSData+SRB64Additions.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:fbase64.c">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSData+SRB64Additions.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FSRWebSocket.m">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Wrap-leveldb"
+                     name = "Wrap-leveldb">
+                     <FileRef
+                        location = "group:APLevelDB.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:APLevelDB.mm">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:FImmutableSortedDictionary"
+                     name = "FImmutableSortedDictionary">
+                     <Group
+                        location = "group:FImmutableSortedDictionary"
+                        name = "FImmutableSortedDictionary">
+                        <FileRef
+                           location = "group:FLLRBValueNode.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FTreeSortedDictionaryEnumerator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FTreeSortedDictionary.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FArraySortedDictionary.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FImmutableSortedDictionary.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FLLRBEmptyNode.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FImmutableSortedSet.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FLLRBNode.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FTreeSortedDictionary.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FArraySortedDictionary.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FTreeSortedDictionaryEnumerator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FLLRBValueNode.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FImmutableSortedSet.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FLLRBEmptyNode.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FImmutableSortedDictionary.h">
+                        </FileRef>
+                     </Group>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:Public"
+                  name = "Public">
+                  <FileRef
+                     location = "group:FIRDataSnapshot.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRMutableData.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRTransactionResult.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRDataEventType.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRDatabase.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRDatabaseQuery.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRDatabaseReference.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRServerValue.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FirebaseDatabase.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:FViewProcessor.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FIndex.m">
+               </FileRef>
+               <Group
+                  location = "group:Persistence"
+                  name = "Persistence">
+                  <FileRef
+                     location = "group:FTrackedQuery.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FLevelDBStorageEngine.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FPruneForest.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FCachePolicy.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FPersistenceManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FTrackedQueryManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FStorageEngine.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FPendingPut.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FTrackedQuery.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FPruneForest.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FLevelDBStorageEngine.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FTrackedQueryManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FPersistenceManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FCachePolicy.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FPendingPut.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:FValueIndex.m">
+               </FileRef>
+               <Group
+                  location = "group:Api"
+                  name = "Api">
+                  <FileRef
+                     location = "group:FIRDatabaseConfig.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRDatabaseQuery.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRDatabase.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRServerValue.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRDataSnapshot.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRDatabaseConfig.h">
+                  </FileRef>
+                  <Group
+                     location = "group:Private"
+                     name = "Private">
+                     <FileRef
+                        location = "group:FIRDatabaseQuery_Private.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRDatabaseReference_Private.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRDatabase_Private.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRDataSnapshot_Private.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTypedefs_Private.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRMutableData_Private.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FIRTransactionResult_Private.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:FIRMutableData.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRTransactionResult.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:FTransformedEnumerator.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FListenComplete.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FEventGenerator.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FClock.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FRangedFilter.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FMaxNode.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FNamedNode.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FKeyIndex.h">
+               </FileRef>
+               <Group
+                  location = "group:Login"
+                  name = "Login">
+                  <FileRef
+                     location = "group:FIRNoopAuthTokenProvider.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FAuthTokenProvider.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRNoopAuthTokenProvider.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FAuthTokenProvider.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:FViewProcessorResult.m">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:GTMSessionFetcher"
+         name = "GTMSessionFetcher">
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <Group
+            location = "group:Source"
+            name = "Source">
+            <FileRef
+               location = "group:GTMSessionFetcherLogging.m">
+            </FileRef>
+            <FileRef
+               location = "group:GTMSessionFetcher.h">
+            </FileRef>
+            <FileRef
+               location = "group:GTMSessionUploadFetcher.h">
+            </FileRef>
+            <FileRef
+               location = "group:GTMSessionFetcherService.m">
+            </FileRef>
+            <FileRef
+               location = "group:GTMSessionFetcherLogging.h">
+            </FileRef>
+            <FileRef
+               location = "group:GTMSessionFetcher.m">
+            </FileRef>
+            <FileRef
+               location = "group:GTMSessionUploadFetcher.m">
+            </FileRef>
+            <FileRef
+               location = "group:GTMSessionFetcherService.h">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:SVProgressHUD"
+         name = "SVProgressHUD">
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <Group
+            location = "group:SVProgressHUD"
+            name = "SVProgressHUD">
+            <FileRef
+               location = "group:SVRadialGradientLayer.m">
+            </FileRef>
+            <FileRef
+               location = "group:SVIndefiniteAnimatedView.h">
+            </FileRef>
+            <FileRef
+               location = "group:SVProgressHUD.h">
+            </FileRef>
+            <FileRef
+               location = "group:SVProgressAnimatedView.m">
+            </FileRef>
+            <FileRef
+               location = "group:SVRadialGradientLayer.h">
+            </FileRef>
+            <FileRef
+               location = "group:SVProgressHUD.m">
+            </FileRef>
+            <FileRef
+               location = "group:SVIndefiniteAnimatedView.m">
+            </FileRef>
+            <FileRef
+               location = "group:SVProgressHUD.bundle">
+            </FileRef>
+            <FileRef
+               location = "group:SVProgressAnimatedView.h">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Firebase"
+         name = "Firebase">
+         <FileRef
+            location = "group:CHANGELOG.md">
+         </FileRef>
+         <Group
+            location = "group:CoreOnly"
+            name = "CoreOnly">
+            <Group
+               location = "group:Sources"
+               name = "Sources">
+               <FileRef
+                  location = "group:Firebase.h">
+               </FileRef>
+               <FileRef
+                  location = "group:module.modulemap">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:NOTICES">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:ChameleonFramework"
+         name = "ChameleonFramework">
+         <Group
+            location = "group:Pod"
+            name = "Pod">
+            <Group
+               location = "group:Classes"
+               name = "Classes">
+               <Group
+                  location = "group:Objective-C"
+                  name = "Objective-C">
+                  <FileRef
+                     location = "group:ChameleonMacros.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIColor+ChameleonPrivate.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ChameleonConstants.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UILabel+Chameleon.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UINavigationController+Chameleon.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Chameleon.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIColor+Chameleon.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSArray+Chameleon.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIButton+Chameleon.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIImage+ChameleonPrivate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIAppearance+Swift.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIViewController+Chameleon.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ChameleonEnums.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIView+ChameleonPrivate.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Chameleon_.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ChameleonConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIColor+ChameleonPrivate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSArray+Chameleon.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIColor+Chameleon.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UINavigationController+Chameleon.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UILabel+Chameleon.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIViewController+Chameleon.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIAppearance+Swift.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIImage+ChameleonPrivate.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIButton+Chameleon.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Chameleon_.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIView+ChameleonPrivate.h">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:LICENSE.md">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Headers"
+         name = "Headers">
+         <Group
+            location = "group:Public"
+            name = "Public">
+            <Group
+               location = "group:Firebase"
+               name = "Firebase">
+               <FileRef
+                  location = "group:Firebase.h">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Private"
+            name = "Private">
+            <Group
+               location = "group:Firebase"
+               name = "Firebase">
+               <FileRef
+                  location = "group:Firebase.h">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:FirebaseAnalytics"
+         name = "FirebaseAnalytics">
+         <Group
+            location = "group:Frameworks"
+            name = "Frameworks">
+            <Group
+               location = "group:FirebaseAnalytics.framework"
+               name = "FirebaseAnalytics.framework">
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:FIREventNames.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAnalyticsSwiftNameSupport.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRParameterNames.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAnalytics+AppDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FirebaseAnalytics.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRUserPropertyNames.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FIRAnalytics.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:FirebaseAnalytics">
+               </FileRef>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:FirebaseNanoPB.framework"
+               name = "FirebaseNanoPB.framework">
+               <FileRef
+                  location = "group:FirebaseNanoPB">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:FirebaseCoreDiagnostics.framework"
+               name = "FirebaseCoreDiagnostics.framework">
+               <FileRef
+                  location = "group:FirebaseCoreDiagnostics">
+               </FileRef>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:GoogleToolboxForMac"
+         name = "GoogleToolboxForMac">
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <Group
+            location = "group:Foundation"
+            name = "Foundation">
+            <FileRef
+               location = "group:GTMNSData+zlib.h">
+            </FileRef>
+            <FileRef
+               location = "group:GTMNSData+zlib.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:GTMDefines.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:leveldb-library"
+         name = "leveldb-library">
+         <FileRef
+            location = "group:LICENSE">
+         </FileRef>
+         <Group
+            location = "group:util"
+            name = "util">
+            <FileRef
+               location = "group:testutil.cc">
+            </FileRef>
+            <FileRef
+               location = "group:status.cc">
+            </FileRef>
+            <FileRef
+               location = "group:arena.cc">
+            </FileRef>
+            <FileRef
+               location = "group:bloom.cc">
+            </FileRef>
+            <FileRef
+               location = "group:posix_logger.h">
+            </FileRef>
+            <FileRef
+               location = "group:testharness.h">
+            </FileRef>
+            <FileRef
+               location = "group:hash.cc">
+            </FileRef>
+            <FileRef
+               location = "group:coding.h">
+            </FileRef>
+            <FileRef
+               location = "group:logging.h">
+            </FileRef>
+            <FileRef
+               location = "group:filter_policy.cc">
+            </FileRef>
+            <FileRef
+               location = "group:histogram.cc">
+            </FileRef>
+            <FileRef
+               location = "group:crc32c.cc">
+            </FileRef>
+            <FileRef
+               location = "group:mutexlock.h">
+            </FileRef>
+            <FileRef
+               location = "group:cache.cc">
+            </FileRef>
+            <FileRef
+               location = "group:testharness.cc">
+            </FileRef>
+            <FileRef
+               location = "group:histogram.h">
+            </FileRef>
+            <FileRef
+               location = "group:crc32c.h">
+            </FileRef>
+            <FileRef
+               location = "group:logging.cc">
+            </FileRef>
+            <FileRef
+               location = "group:options.cc">
+            </FileRef>
+            <FileRef
+               location = "group:arena.h">
+            </FileRef>
+            <FileRef
+               location = "group:comparator.cc">
+            </FileRef>
+            <FileRef
+               location = "group:env_posix_test_helper.h">
+            </FileRef>
+            <FileRef
+               location = "group:coding.cc">
+            </FileRef>
+            <FileRef
+               location = "group:hash.h">
+            </FileRef>
+            <FileRef
+               location = "group:random.h">
+            </FileRef>
+            <FileRef
+               location = "group:env_posix.cc">
+            </FileRef>
+            <FileRef
+               location = "group:testutil.h">
+            </FileRef>
+            <FileRef
+               location = "group:env.cc">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:include"
+            name = "include">
+            <Group
+               location = "group:leveldb"
+               name = "leveldb">
+               <FileRef
+                  location = "group:env.h">
+               </FileRef>
+               <FileRef
+                  location = "group:status.h">
+               </FileRef>
+               <FileRef
+                  location = "group:db.h">
+               </FileRef>
+               <FileRef
+                  location = "group:slice.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cache.h">
+               </FileRef>
+               <FileRef
+                  location = "group:write_batch.h">
+               </FileRef>
+               <FileRef
+                  location = "group:options.h">
+               </FileRef>
+               <FileRef
+                  location = "group:dumpfile.h">
+               </FileRef>
+               <FileRef
+                  location = "group:c.h">
+               </FileRef>
+               <FileRef
+                  location = "group:filter_policy.h">
+               </FileRef>
+               <FileRef
+                  location = "group:comparator.h">
+               </FileRef>
+               <FileRef
+                  location = "group:table.h">
+               </FileRef>
+               <FileRef
+                  location = "group:table_builder.h">
+               </FileRef>
+               <FileRef
+                  location = "group:iterator.h">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <Group
+            location = "group:table"
+            name = "table">
+            <FileRef
+               location = "group:table.cc">
+            </FileRef>
+            <FileRef
+               location = "group:block.cc">
+            </FileRef>
+            <FileRef
+               location = "group:merger.cc">
+            </FileRef>
+            <FileRef
+               location = "group:iterator.cc">
+            </FileRef>
+            <FileRef
+               location = "group:block_builder.cc">
+            </FileRef>
+            <FileRef
+               location = "group:iterator_wrapper.h">
+            </FileRef>
+            <FileRef
+               location = "group:merger.h">
+            </FileRef>
+            <FileRef
+               location = "group:table_builder.cc">
+            </FileRef>
+            <FileRef
+               location = "group:block_builder.h">
+            </FileRef>
+            <FileRef
+               location = "group:filter_block.cc">
+            </FileRef>
+            <FileRef
+               location = "group:block.h">
+            </FileRef>
+            <FileRef
+               location = "group:format.cc">
+            </FileRef>
+            <FileRef
+               location = "group:filter_block.h">
+            </FileRef>
+            <FileRef
+               location = "group:two_level_iterator.h">
+            </FileRef>
+            <FileRef
+               location = "group:format.h">
+            </FileRef>
+            <FileRef
+               location = "group:two_level_iterator.cc">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:db"
+            name = "db">
+            <FileRef
+               location = "group:log_format.h">
+            </FileRef>
+            <FileRef
+               location = "group:log_writer.cc">
+            </FileRef>
+            <FileRef
+               location = "group:table_cache.h">
+            </FileRef>
+            <FileRef
+               location = "group:db_impl.cc">
+            </FileRef>
+            <FileRef
+               location = "group:filename.cc">
+            </FileRef>
+            <FileRef
+               location = "group:skiplist.h">
+            </FileRef>
+            <FileRef
+               location = "group:dbformat.h">
+            </FileRef>
+            <FileRef
+               location = "group:table_cache.cc">
+            </FileRef>
+            <FileRef
+               location = "group:log_reader.cc">
+            </FileRef>
+            <FileRef
+               location = "group:write_batch.cc">
+            </FileRef>
+            <FileRef
+               location = "group:c.cc">
+            </FileRef>
+            <FileRef
+               location = "group:builder.cc">
+            </FileRef>
+            <FileRef
+               location = "group:log_writer.h">
+            </FileRef>
+            <FileRef
+               location = "group:version_edit.cc">
+            </FileRef>
+            <FileRef
+               location = "group:db_impl.h">
+            </FileRef>
+            <FileRef
+               location = "group:db_iter.h">
+            </FileRef>
+            <FileRef
+               location = "group:dbformat.cc">
+            </FileRef>
+            <FileRef
+               location = "group:memtable.h">
+            </FileRef>
+            <FileRef
+               location = "group:version_edit.h">
+            </FileRef>
+            <FileRef
+               location = "group:version_set.h">
+            </FileRef>
+            <FileRef
+               location = "group:builder.h">
+            </FileRef>
+            <FileRef
+               location = "group:version_set.cc">
+            </FileRef>
+            <FileRef
+               location = "group:dumpfile.cc">
+            </FileRef>
+            <FileRef
+               location = "group:log_reader.h">
+            </FileRef>
+            <FileRef
+               location = "group:write_batch_internal.h">
+            </FileRef>
+            <FileRef
+               location = "group:db_iter.cc">
+            </FileRef>
+            <FileRef
+               location = "group:repair.cc">
+            </FileRef>
+            <FileRef
+               location = "group:filename.h">
+            </FileRef>
+            <FileRef
+               location = "group:snapshot.h">
+            </FileRef>
+            <FileRef
+               location = "group:memtable.cc">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:port"
+            name = "port">
+            <FileRef
+               location = "group:atomic_pointer.h">
+            </FileRef>
+            <FileRef
+               location = "group:port.h">
+            </FileRef>
+            <FileRef
+               location = "group:port_posix.cc">
+            </FileRef>
+            <FileRef
+               location = "group:port_posix.h">
+            </FileRef>
+            <FileRef
+               location = "group:port_example.h">
+            </FileRef>
+            <FileRef
+               location = "group:port_posix_sse.cc">
+            </FileRef>
+            <FileRef
+               location = "group:thread_annotations.h">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:nanopb"
+         name = "nanopb">
+         <FileRef
+            location = "group:pb_common.c">
+         </FileRef>
+         <FileRef
+            location = "group:pb_decode.c">
+         </FileRef>
+         <FileRef
+            location = "group:pb_encode.c">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:pb_common.h">
+         </FileRef>
+         <FileRef
+            location = "group:pb.h">
+         </FileRef>
+         <FileRef
+            location = "group:LICENSE.txt">
+         </FileRef>
+         <FileRef
+            location = "group:pb_encode.h">
+         </FileRef>
+         <FileRef
+            location = "group:pb_decode.h">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
