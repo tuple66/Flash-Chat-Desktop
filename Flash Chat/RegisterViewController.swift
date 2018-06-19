@@ -33,9 +33,10 @@ class RegisterViewController: UIViewController {
 //This is another comment
         
         //TODO: Set up a new user on our Firbase database
-        Auth.auth().createUser(withEmail: emailTextfield.text!, password: passwordTextfield.text!) { (user, error) in
+        Auth.auth().createUser(withEmail: emailTextfield.text!, password: passwordTextfield.text!) {
+            (user, error) in
             if error != nil{
-                print(error)
+                print(error!)
             } else {
                 //success
                 print("registration succesful yeah")
