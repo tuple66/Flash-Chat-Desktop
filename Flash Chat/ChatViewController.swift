@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-class ChatViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
+class ChatViewController: UIViewController, UITableViewDelegate,UITableViewDataSource,UITextFieldDelegate {
     
     // Declare instance variables here
 
@@ -28,9 +28,9 @@ class ChatViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         //TODO: Set yourself as the delegate and datasource here:
         messageTableView.delegate = self
         messageTableView.dataSource = self
-        
+       
         //TODO: Set yourself as the delegate of the text field here:
-
+        messageTextfield.delegate = self
         
         
         //TODO: Set the tapGesture here:
@@ -40,6 +40,8 @@ class ChatViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         //TODO: Register your MessageCell.xib file here:
 
         messageTableView.register(UINib(nibName: "MessageCell", bundle: nil), forCellReuseIdentifier: "customMessageCell")
+        
+        configureTableView()
     }
     
 
@@ -69,7 +71,10 @@ class ChatViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     
     
     //TODO: Declare configureTableView here:
-    
+    func configureTableView (){
+        messageTableView.rowHeight = UITableViewAutomaticDimension
+        messageTableView.estimatedRowHeight = 120.0
+    }
     
     
     ///////////////////////////////////////////
@@ -80,12 +85,17 @@ class ChatViewController: UIViewController, UITableViewDelegate,UITableViewDataS
 
     
     //TODO: Declare textFieldDidBeginEditing here:
-    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        heightConstraint.constant = 308
+        view.layoutIfNeeded()
+    }
     
     
     
     //TODO: Declare textFieldDidEndEditing here:
-    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        
+    }
 
     
     ///////////////////////////////////////////
